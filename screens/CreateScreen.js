@@ -64,14 +64,14 @@ export default function CreateScreen({ navigation }) {
   );
 }
 
-function convertToInt(text) {
-  const num = parseInt(text, 10);
-  if (isNaN(num)) {
-    return 0;
-  } else {
-    return num;
-  }
-}
+// function convertToInt(text) {
+//   const num = parseInt(text, 10);
+//   if (isNaN(num)) {
+//     return 0;
+//   } else {
+//     return num;
+//   }
+// }
 
 const styles = StyleSheet.create({
   container: {
